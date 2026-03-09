@@ -5,8 +5,7 @@ public class MenuButtons : MonoBehaviour
 {
 
     public void PlayGame(){
-        Debug.Log("Play button clicked");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Level1");
     }
 
     public void QuitGame()
